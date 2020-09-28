@@ -5,144 +5,144 @@ export default {
             "no": "KHÔNG"
         },
         message: {
-            "confirmLending": "Are you sure want to lending?"
+            "confirmLending": "Bạn chắc chắn muốn cho vay?"
         }
 
     },
     error: {
         OTP: {
-            "insuccessOTP": "OTP is insuccess",
-            "errServer": "Error with server",
+            "insuccessOTP": "OTP không thành công",
+            "errServer": "Lỗi server",
         },
         numberPhone: {
-            "phoneBlank": "User must not be left blank",
-            "loginIncorrect": "User or password is incorrect!",
-            "invalidMobile": "Mobile is not valid",
-            "incorredPhoneFormat": "Incorrect phone number format",
+            "phoneBlank": "Tên đăng nhập không được để trống",
+            "loginIncorrect": "Tên đăng nhập hoặc mật khẩu không đúng!",
+            "invalidMobile": "Số điện thoại không hợp lệ",
+            "incorredPhoneFormat": "Số điện thoại không đúng định dạng",
 
         },
         password: {
-            "passwordBlank": "Password can not be left blank",
-            "accountHasBeenRegistered": "Account has been registered",
-            "repeatPasswordDontMatch": "Those passwords didn't match",
-            "passwordLessThan6Characters": "Use 6 character or more for your password",
-            "passwordMoreThan32Characters": "Use 6 to 32 characters",
-            "cantFindAccount": "Can't find your account?",
+            "passwordBlank": "Mật khẩu không được để trống",
+            "accountHasBeenRegistered": "Tài khoản đã được đăng ký",
+            "repeatPasswordDontMatch": "Mật khẩu không khớp",
+            "passwordLessThan6Characters": "Mật khẩu gồm tối thiểu 6 ký tự",
+            "passwordMoreThan32Characters": "Mật khẩu chỉ từ 6 đến 32 ký tự",
+            "cantFindAccount": "Bạn không tìm được tài khoản?",
         },
         server: {
-            "networkError": "Network Error",
-            "processError": "Have error when processing"
+            "networkError": "Lỗi mạng",
+            "processError": "Lỗi trong quá trình xử lý"
         },
         giftcode: {
-            "giftcodeBlank": "Please enter giftcode!"
+            "giftcodeBlank": "Vui lòng nhập mã quà tặng!"
         }
     },
     screens: {
         dashboard: {
-            "dashboardTabName": "Dashboard",
+            "dashboardTabName": "Bảng điều khiển",
             chart: {
-                "title": "Chart",
-                "totalAmount": "Total Amount",
-                "lendingAmount": "Lending Amount",
-                "referralAmount": "Referral Amount",
+                "title": "Biểu đồ",
+                "totalAmount": "Tổng số tiền",
+                "lendingAmount": "Tiền cho vay",
+                "referralAmount": "Tiền giới thiệu",
             },
             finance: {
-                "total": "Total",
-                "lending": 'Lending',
-                "remaining": "Remaining",
-                "referral": "Referral",
+                "total": "Tổng",
+                "lending": 'Cho vay',
+                "remaining": "Còn lại",
+                "referral": "Giới thiệu",
             },
             interestRateHistories: {
-                "remainDays": "days",
+                "remainDays": "Ngày",
                 "getButton": "get",
                 "gotButton": "got",
             }
 
         },
         lending: {
-            "lendingTabName": "Lending",
-            "lendingTitle": "Lending",
-            "chooseTitle": "Choose a package",
-            "walletTitle": "Wallet",
-            "coinInputLabel": "COIN",
-            "allButton": "ALL",
-            "lendButton": "LEND",
+            "lendingTabName": "Cho vay",
+            "lendingTitle": "CHO ",
+            "chooseTitle": "Chọn gói",
+            "walletTitle": "Ví",
+            "coinInputLabel": "XU",
+            "allButton": "TẤT CẢ",
+            "lendButton": "CHO VAY",
             lendingPackage: {
-                "minInvest": "Min",
-                "interestRate": "Interest rate",
-                "matureIn": "Mature in",
+                "minInvest": "Tối thiểu",
+                "interestRate": "Lãi suất",
+                "matureIn": "Đến hạn",
             },
             lendingHistories: {
-                "amount": "AMOUT",
+                "amount": "SỐ TIỀN",
             }
         },
         referral: {
-            "refTabName": "Referral",
-            "refTitle": "REFERRAL",
+            "refTabName": "Giới thiệu",
+            "refTitle": "GIỚI THIỆU",
             "introText": "The Lending game referral program is a great way to read the word of this great service and to earn even more money with your friend! Refer friends and receive 1000 COIN of their earnings for life!",
-            "copyButton": "Copy",
-            "totalRefTitle": "Total",
-            "rewardRefTitle": "Reward",
+            "copyButton": "Sao chép",
+            "totalRefTitle": "Tổng",
+            "rewardRefTitle": "Thưởng",
             refHistories: {
-                "earnedTitle": "EARNED",
+                "earnedTitle": "ĐÃ KIẾM ĐƯỢC",
             }
         },
         profile: {
-            "profileTabName": "Profile",
-            "profileTitle": "PROFILE",
-            "bid": "Bid",
-            "bidHistories": "My Bid",
-            "coupon": "Gift",
-            "logout": "Logout",
+            "profileTabName": "Hồ sơ",
+            "profileTitle": "HỒ SƠ",
+            "bid": "Đấu giá",
+            "bidHistories": "Đấu giá của tôi",
+            "coupon": "Quà tặng",
+            "logout": "Đăng xuất",
         },
         bidDetail: {
-            "bidderTitle": "Bidder",
+            "bidderTitle": "Người đấu giá",
         },
         listBidding: {
             tabName: {
-                "doingTabName": "DOING",
-                "comingTabName": "COMING",
+                "doingTabName": "Đang tham gia",
+                "comingTabName": "SẮP TỚI",
             }
         },
         myBid: {
             tabName: {
-                "win": "Win bid",
-                "lose": "Lose bid"
+                "win": "Thắng đấu giá",
+                "lose": "Thua đấu giá"
             }
         },
         coupon: {
-            "giftTitle": "Enter the Giftcode",
-            "placeholderText": "Enter giftcode",
-            "submitButton": "SUBMIT",
+            "giftTitle": "Quà tặng",
+            "placeholderText": "Nhập mã quà tặng",
+            "submitButton": "GỬI",
             couponHistories: {
-                "prize": "PRIZE",
+                "prize": "Phần thưởng",
             }
         },
         login: {
-            "mobileInputPlaceholder": "Mobile",
-            "passwordInputPlaceholder": "Password",
-            "forgetPasswordText": "Forgotten password?",
-            "loginButtonText": "LOG IN",
-            "haventAccount": "You haven't account?",
-            "createAccount": "Create an account",
+            "mobileInputPlaceholder": "Số điện thoại",
+            "passwordInputPlaceholder": "Mật khẩu",
+            "forgetPasswordText": "Quên mật khẩu?",
+            "loginButtonText": "ĐĂNG NHẬP",
+            "haventAccount": "Bạn chưa có tài khoản?",
+            "createAccount": "Tạo tài khoản",
         },
         enterOTP: {
-            "enterOTPTitle": "Enter OTP code",
-            "enterOTPInputPlaceholder": "Enter OTP",
-            "confirmButtonText": "Confirm",
-            "dontGetOTPCode": "Didn't get a code?",
-            "enterPhoneAgain": "Enter my phone again",
+            "enterOTPTitle": "Nhập mã OTP",
+            "enterOTPInputPlaceholder": "Nhập OTP",
+            "confirmButtonText": "Xác nhận",
+            "dontGetOTPCode": "Không nhận được mã?",
+            "enterPhoneAgain": "Nhập lại số điện thoại",
         },
         enterYourPhone: {
-            "enterYourPhoneTitle": "Enter your phone",
-            "enterYourPhonePlaceholder": "Enter your phone",
-            "submitButtonText": "Submit",
-            "backToLogIn": "Back to Log In",
+            "enterYourPhoneTitle": "Nhập số điện thoại",
+            "enterYourPhonePlaceholder": "Nhập số điện thoại",
+            "submitButtonText": "Gửi",
+            "backToLogIn": "Đăng nhập lại",
         },
         enterYourPassword: {
-            "enterYourPasswordTitle": "Enter your password",
-            "confirmPasswordPlaceHolder": "Confirm password",
-            "showPassword": "Show password",
+            "enterYourPasswordTitle": "Nhập mật khẩu",
+            "confirmPasswordPlaceHolder": "Xác nhận mật khẩu",
+            "showPassword": "Xem mật khẩu",
         }
     }
 }
