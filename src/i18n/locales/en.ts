@@ -1,8 +1,8 @@
 export default {
     popup: {
         yesNo: {
-            "yes": "YES",
-            "no": "NO"
+            "yes": "ĐỒNG Ý",
+            "no": "KHÔNG"
         },
         message: {
             "confirmLending": "Are you sure want to lending?"
