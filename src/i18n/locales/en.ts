@@ -79,7 +79,7 @@ export default {
         referral: {
             "refTabName": "Giới thiệu",
             "refTitle": "GIỚI THIỆU",
-            "introText": "The Lending game referral program is a great way to read the word of this great service and to earn even more money with your friend! Refer friends and receive 1000 COIN of their earnings for life!",
+            "introText": "Hãy sử dụng tính năng Giới thiệu bạn bè để tăng số tiền trong tài khoản. Mỗi lượt Giới thiệu sẽ mang lại 100.000 vào tài khoản và nhận Hoa hồng suốt đời.",
             "copyButton": "Sao chép",
             "totalRefTitle": "Tổng",
             "rewardRefTitle": "Thưởng",
